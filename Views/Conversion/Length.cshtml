@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Length";
+
+}
+<h2 id="title" class="mb-3 mt-5">Length</h2>
+@if ((bool)ViewData["Converted"] == false)
+{
+<form class="form" id="for" target="_self">
+    <div class="form-group row d-flex justify-content-center"> 
+        <div class="col-sm-3 text-center"> 
+            <label for="lengthToConvert">Enter the length to convert</label>
+            <input type="numeric" class="form-control text-center" id="lengthToConvert" required placeholder="Length" name="data">
+        </div>
+    </div>
+    <div class="form-group row d-flex justify-content-center">
+        <div class="col-sm-3 text-center"> 
+            <label for="a" class="mt-2">Unit to convert from</label>
+            <select class="form-control text-center" name="unit1">
+                <option value="mm">Milimetres (mm)</option>
+                <option value="cm">Centimetres (cm)</option>
+                <option value="m">Metres (m)</option>
+                <option value="km">Kilometres (km)</option>
+                <option value="in">Inchs (in)</option>
+                <option value="ft">Feet (ft)</option>
+                <option value="yd">Yards (yd)</option>
+                <option value="mi">Miles (mi)</option>
+
+            </select>
+            <label for="a" class="mt-2">Unit to convert to</label>
+            <select class="form-control text-center" name="unit2">
+                <option value="mm">Milimetres (mm)</option>
+                <option value="cm">Centimetres (cm)</option>
+                <option value="m">Metres (m)</option>
+                <option value="km">Kilometres (km)</option>
+                <option value="ft">Feet (ft)</option>
+                <option value="mi">Miles (mi)</option>
+
+            </select>
+            <button class="btn btn-primary mt-3 mb-3">Convert</button>
+        </div>
+    </div>
+</form>
+}
+else
+{
+    ViewData["Converted"] = false;
+    <div id="res">
+        <h2>Result of your calculation</h2>
+        <h3>@ViewData["Data"]@ViewData["Unit1"] = @ViewData["Result"]@ViewData["Unit2"]</h3>
+        <form target="_self">
+            <button class="btn btn-primary">Reset</button>
+        </form>
+    </div>
+}
+
+

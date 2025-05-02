@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = unit_converter
+build_property.RootNamespace = unit_converter
+build_property.ProjectDir = /home/evencode21/dev/roadmap/unit-converter/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/evencode21/dev/roadmap/unit-converter
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/Conversion/Length.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udmVyc2lvbi9MZW5ndGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/Conversion/Temperature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udmVyc2lvbi9UZW1wZXJhdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/Conversion/Weight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udmVyc2lvbi9XZWlnaHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/evencode21/dev/roadmap/unit-converter/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sl6kkhr1vo
